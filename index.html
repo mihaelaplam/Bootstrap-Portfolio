@@ -22,7 +22,7 @@
       }
       .center-icon {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         height: 50px;
       }
@@ -33,7 +33,13 @@
         .icon-wrapper i:hover {
             transform: scale(1.2);
         }
+        .portfolio-item .card-img-top {
+    transition: transform 0.3s ease-in-out;
+  }
 
+  .portfolio-item .card-img-top:hover {
+    transform: scale(1.1);
+  }
     </style>
   </head>
     <!-- Nav Bar -->
@@ -87,45 +93,45 @@
     <!-- Portfolio section -->
 
     <section id="portfolio" class="py-5 bg-light">
-      <div class="container">
-        <h2 class="text-center">Portfolio</h2>
-        <div class="row">
-          <div class="col-md-4 portfolio-item">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="https://dummyimage.com/300x200/57575b/aaa"
-                alt="Project 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Project 1</h5>
-                <p class="card-text">Description of project 1 goes here.</p>
+        <div class="container">
+          <h2 class="text-center">Portfolio</h2>
+          <div class="row">
+            <div class="col-md-4 portfolio-item">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://dummyimage.com/300x200/57575b/aaa"
+                  alt="Project 1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Project 1</h5>
+                  <p class="card-text">Description of project 1 goes here.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 portfolio-item">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="https://dummyimage.com/300x200/57575b/aaa"
-                alt="Project 2"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Project 2</h5>
-                <p class="card-text">Description of project 2 goes here.</p>
+            <div class="col-md-4 portfolio-item">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://dummyimage.com/300x200/57575b/aaa"
+                  alt="Project 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Project 2</h5>
+                  <p class="card-text">Description of project 2 goes here.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 portfolio-item">
-            <div class="card">
-              <img
-                class="card-img-top"
-                src="https://dummyimage.com/300x200/57575b/aaa"
-                alt="Project 3"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Project 3</h5>
-                <p class="card-text">Description of project 3 goes here.</p>
+            <div class="col-md-4 portfolio-item">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://dummyimage.com/300x200/57575b/aaa"
+                  alt="Project 3"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Project 3</h5>
+                  <p class="card-text">Description of project 3 goes here.</p>
               </div>
             </div>
           </div>
