@@ -1,4 +1,3 @@
-
 .portfolio-item {
   margin-bottom: 20px;
 }
@@ -20,7 +19,7 @@ transition: transform 0.3s ease-in-out;
 }
 
 .portfolio-item .card-img-top:hover {
-transform: scale(1.1);
+transform: scale(1.05);
 }
 
 .btn-dark:i {
@@ -28,6 +27,6 @@ transform: scale(1.2);
 }
 
 .btn-dark:hover {
-background-color: #5b6168; /* Change the background color on hover */
-border-color: #ffffff; /* Change the border color on hover */
+background-color: #5b6168;
+border-color: #ffffff;
 }
