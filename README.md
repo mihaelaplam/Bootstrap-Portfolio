@@ -29,7 +29,7 @@ Header: Displays the main logo and navigation links for easy access to different
 Displays a brief introduction about me along with my profile picture.
 
 3. Skills
-Lists Mihaela's skills in web development, including HTML5, CSS3, JavaScript, Git, and GitHub.
+Lists my skills in web development, including HTML5, CSS3, JavaScript, Git, and GitHub.
 
 4. Work
 Showcases images of my previous work in web development.
